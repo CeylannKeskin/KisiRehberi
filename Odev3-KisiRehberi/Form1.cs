@@ -82,6 +82,7 @@ namespace Odev3_KisiRehberi
 
 			return str;
 		}
+		
 		private void Temizle(Control.ControlCollection controls)
 		{
 			foreach (Control item in controls)
