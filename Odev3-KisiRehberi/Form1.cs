@@ -82,7 +82,10 @@ namespace Odev3_KisiRehberi
 
 			return str;
 		}
-		
+		/// <summary>
+		/// Method gives Form Control Clean Process.
+		/// </summary>
+		/// <param name="controls"></param>
 		private void Temizle(Control.ControlCollection controls)
 		{
 			foreach (Control item in controls)
